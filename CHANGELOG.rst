@@ -54,7 +54,7 @@ Changelog for package rsl
   * rclcpp::Parameter validator functions
   * Algorithms from parameter_traits
   * `rsl::StaticVector` and `rsl::StaticString`
-* Doxygen site: https://picknikrobotics.github.io/RSL/files.html
+* Doxygen site: https://christhrasher.github.io/RSL/files.html
   * Link to the docs from the README
   * Use doxygen-awesome documentation style
   * Deploy documentation website from CI

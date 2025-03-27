@@ -1,12 +1,12 @@
 # ROS Support Library (RSL)
 
-![GitHub CI Workflow Status](https://img.shields.io/github/actions/workflow/status/picknikrobotics/RSL/.github/workflows/ci.yaml?branch=main&label=CI)
-[![codecov](https://codecov.io/github/PickNikRobotics/RSL/branch/main/graph/badge.svg?token=t85cTyvsez)](https://codecov.io/github/PickNikRobotics/RSL)
-![GitHub](https://img.shields.io/github/license/PickNikRobotics/RSL)
+![GitHub CI Workflow Status](https://img.shields.io/github/actions/workflow/status/christhrasher/RSL/.github/workflows/ci.yaml?branch=main&label=CI)
+[![codecov](https://codecov.io/github/christhrasher/RSL/branch/main/graph/badge.svg?token=t85cTyvsez)](https://codecov.io/github/christhrasher/RSL)
+![GitHub](https://img.shields.io/github/license/christhrasher/RSL)
 
 RSL is a collection of C++17 utilities for ROS projects.
 
-Read the docs [here](https://picknikrobotics.github.io/RSL/files.html).
+Read the docs [here](https://christhrasher.github.io/RSL/files.html).
 
 ## Killer Features
 
