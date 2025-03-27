@@ -22,7 +22,7 @@ jobs:
         - preset: codecov
           ros_distro: humble
     runs-on: ubuntu-22.04
-    container: ghcr.io/picknikrobotics/rsl:upstream-${{ matrix.ros_distro }}
+    container: ghcr.io/christhrasher/rsl:upstream-${{ matrix.ros_distro }}
     env:
       CCACHE_DIR: ${{ github.workspace }}/.ccache
     steps:
@@ -68,7 +68,7 @@ jobs:
       matrix:
         ros_distro: [humble, rolling]
     runs-on: ubuntu-22.04
-    container: ghcr.io/picknikrobotics/rsl:upstream-${{ matrix.ros_distro }}
+    container: ghcr.io/christhrasher/rsl:upstream-${{ matrix.ros_distro }}
     env:
       CCACHE_DIR: ${{ github.workspace }}/.ccache
     steps:
