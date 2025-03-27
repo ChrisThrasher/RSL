@@ -14,5 +14,5 @@ TEST_CASE("rsl::Overload") {
     auto variant = std::variant<int, float, std::string>();
     CHECK(std::visit(overload, variant = 12) == Type::INT);
     CHECK(std::visit(overload, variant = 42.f) == Type::FLOAT);
-    CHECK(std::visit(overload, variant = "PickNik") == Type::STRING);
+    CHECK(std::visit(overload, variant = "ROS") == Type::STRING);
 }

@@ -52,24 +52,30 @@ TEST_CASE("rsl::StaticString") {
     }
 
     SECTION("std::string_view()") {
-        auto const static_vector = rsl::StaticString<16>("PickNik Robotics");
+        auto const static_vector = rsl::StaticString<22>("Robot Operating System");
         auto const string_view = std::string_view(static_vector);
-        CHECK(string_view[0] == 'P');
-        CHECK(string_view[1] == 'i');
-        CHECK(string_view[2] == 'c');
-        CHECK(string_view[3] == 'k');
-        CHECK(string_view[4] == 'N');
-        CHECK(string_view[5] == 'i');
-        CHECK(string_view[6] == 'k');
-        CHECK(string_view[7] == ' ');
-        CHECK(string_view[8] == 'R');
-        CHECK(string_view[9] == 'o');
-        CHECK(string_view[10] == 'b');
-        CHECK(string_view[11] == 'o');
-        CHECK(string_view[12] == 't');
-        CHECK(string_view[13] == 'i');
-        CHECK(string_view[14] == 'c');
-        CHECK(string_view[15] == 's');
+        CHECK(string_view[0] == 'R');
+        CHECK(string_view[1] == 'o');
+        CHECK(string_view[2] == 'b');
+        CHECK(string_view[3] == 'o');
+        CHECK(string_view[4] == 't');
+        CHECK(string_view[5] == ' ');
+        CHECK(string_view[6] == 'O');
+        CHECK(string_view[7] == 'p');
+        CHECK(string_view[8] == 'e');
+        CHECK(string_view[9] == 'r');
+        CHECK(string_view[10] == 'a');
+        CHECK(string_view[11] == 't');
+        CHECK(string_view[12] == 'i');
+        CHECK(string_view[13] == 'n');
+        CHECK(string_view[14] == 'g');
+        CHECK(string_view[15] == ' ');
+        CHECK(string_view[16] == 'S');
+        CHECK(string_view[17] == 'y');
+        CHECK(string_view[18] == 's');
+        CHECK(string_view[19] == 't');
+        CHECK(string_view[20] == 'e');
+        CHECK(string_view[21] == 'm');
     }
 }
 
